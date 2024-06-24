@@ -1,0 +1,99 @@
+:root {
+  --clr-dark: #020617;
+  --clr-light: #f1f5f9;
+  --clr-slate400: #94a3b8;
+  --clr-slate600: #475569;
+  --clr-slate800: #1e293b;
+  --clr-rose: #e11d48;
+  --clr-indigo: #4f46e5;
+  /*-----Purple Color Pallete */
+  --clr-purple100: #f3e8ff;
+  --clr-purple400: #c084fc;
+  --clr-purple500: #a855f7;
+  --clr-purple700: #7e22ce;
+  --clr-purple800: #6b21a8;
+  --clr-purple950: #3b0764;
+  --clr-green600: #16a34a;
+  --clr-green400: #4ade80;
+
+  /*-----Eartly Color Pallete*/
+  --clr-earthlight: #F8FAE5;
+  --clr-earth2: #789461;
+  --clr-earth3: #B19470;
+  --clr-earthdark: #76453B;
+  /*----Space Pallete */
+  --clr-spacelight: #EEEEEE;
+  --clr-space2: #C73659;
+  --clr-space3: #A91D3A;
+  --clr-spacedark: #151515;
+  --clr-spacesilver: #C0C0C0;
+  --clr-spaceblue: #6488ea;
+
+  /* rose 	rgb(225, 29, 72) */
+  /* indigo   rgb(79, 70, 229) */
+
+  /* sizes */
+  --size-xxs: 0.5rem; 
+  --size-xs: 0.75rem; 
+  --size-sm:0.875rem; 
+  --size-base:1rem; 
+  --size-lg:1.125rem; 
+  --size-xl:1.25rem; 
+  --size-2xl:1.5rem; 
+  --size-3xl:1.875rem; 
+  --size-4xl:2rem; 
+  --size-5xl:3rem; 
+  --size-6xl:3.75; 
+  --size-7xl:4.5rem; 
+  --size-8xl:6rem; 
+  --size-9xl:8rem; 
+  --size-10xl:10rem;    
+}
+
+
+* {
+  margin: 0;
+  line-height: calc(1em + 0.5rem);
+}
+
+html{
+  scroll-behavior: smooth;
+  visibility: visible !important;
+  
+}
+
+body{
+  font-family: 'General Sans', sans-serif;
+  background-color: var(--clr-spacelight);
+  color: var(--clr-spacedark);
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+  color: var(--clr-spacedark);
+  justify-content: end;
+}
+button{
+  display: inline-block;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+a {
+  color: var(--clr-space2);
+}
+a:hover {
+  text-decoration: underline;
+  
+}
+
+strong {
+  color: var(--clr-spaceblue);
+}

@@ -1,0 +1,29 @@
+.header {
+    height: 70px;
+    width: 100%;
+    padding: 0 30px;
+    background-color: var(--clr-space2);
+}
+.header__section-svg{
+    display: block;
+    color: var(--clr-light);
+    width: var(--size-2xl);
+    height: var(--size-2xl);
+    justify-content: center;
+    align-items: end;
+    text-align: center;
+
+ 
+}
+.header__section-input {
+    border: 2px solid var(--clr-spacedark);
+}
+.header__section-search{
+    display: flex;
+    /* border: 2px solid var(--clr-spacedark); */
+}
+.header__section-btn{
+    display: flex;
+    border: 2px solid var(--clr-spacedark); 
+    background-color: var(--clr-space2);
+}
